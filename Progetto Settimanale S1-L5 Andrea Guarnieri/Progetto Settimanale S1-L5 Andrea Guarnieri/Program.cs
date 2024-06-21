@@ -1,4 +1,16 @@
-﻿using static Progetto_Settimanale_S1_L5_Andrea_Guarnieri.Classe_Contribuente;
+﻿// Per eseguire il compito per chiarezza ho creato 3 file. 
+// Il file principale mostra solo un menù con 2 scelte, Uscire o Creare un nuovo contribuente
+// Il secondo file (InputValidator) contiene tutti i metodi per contrallare che i vari input siano corretti
+// In fine il terzo file (Contribuente) permette la creazione del nuovo contribuente e invoca i metodi
+// di InputValidator per controllare la corretteza dell'immissione dei dati.
+
+// Come consigliato da lei ho creato un nuovo file chiamato CodiceFiscaleValidator che
+// contiene un metodo che viene invocato il InputValidator per il controllo del codice fiscale
+
+
+
+
+using static Progetto_Settimanale_S1_L5_Andrea_Guarnieri.Classe_Contribuente;
 
 namespace Progetto_Settimanale_S1_L5_Andrea_Guarnieri
 {
